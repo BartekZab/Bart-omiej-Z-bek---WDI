@@ -14,7 +14,7 @@ if a>=0 and b>0:
 elif b==0:
     print("Nie dziel przez zero!")
 
-elif a<0:
+elif a<0 and b>0:
     print("Suma tych liczb to", abs(a)+b)
     print("Roznica tych liczb to", abs(a)-b)
     print("Iloczyn tych liczb to", abs(a)*b)
@@ -24,7 +24,7 @@ elif a<0:
     print("Pierwiastek pierwszej z podanych liczb to", round(abs(a)**(1/2),5))
     print("Pierwiastek drugiej z podanych liczb to", b**(1/2))
 
-elif b<0:
+elif b<0 and a>=0:
     print("Suma tych liczb to", a+abs(b))
     print("Roznica tych liczb to", a-abs(b))
     print("Iloczyn tych liczb to", a*abs(b))
