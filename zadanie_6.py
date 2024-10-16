@@ -1,7 +1,7 @@
 a=int(input("Podaj pierwsza liczbe: "))
 b=int(input("Podaj druga liczbe: "))
 
-if a>=0 and b>=0:
+if a>=0 and b>0:
     print("Suma tych liczb to", a+b)
     print("Roznica tych liczb to", a-b)
     print("Iloczyn tych liczb to", a*b)
