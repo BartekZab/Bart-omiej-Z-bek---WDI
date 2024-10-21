@@ -44,11 +44,13 @@ while True:
         else:
             print("Nie rozpoznano znaku.")
             time.sleep(2)
+        kontynuuj = input("Czy chcesz kontynuować? (t/n): ").lower()
+        if kontynuuj != 't':
+                print("Dziękujemy za skorzystanie z naszego kalkulatora!")
+                break
 
-    #    if input("Czy chcesz wprowadzic nowe dane? (T / N)").strip().upper() != 'T':
-    #         break
-    #Cos nie dziala           
-        
+
+ 
         
 
 
