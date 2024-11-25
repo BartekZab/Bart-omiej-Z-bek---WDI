@@ -43,17 +43,16 @@ if n > 0:
                     index += 1
                 left += 1
 
-    def main():
+    
         
-        matrix = [[0] * n for _ in range(n)]  # Tworzenie dwuwymiarowej tablicy nxn
-        fill_spiral(matrix)
-        
-        # Wyświetlanie tablicy
-        for row in matrix:
-            print(" ".join(map(str, row)))
+matrix = [[0] * n for _ in range(n)]  # Tworzenie dwuwymiarowej tablicy nxn
+fill_spiral(matrix)
 
-    if __name__ == "__main__":
-        main()
+# Wyświetlanie tablicy
+for row in matrix:
+    print(" ".join(map(str, row)))
+
+    
 
 else:
     print("Wymiary tablicy musza byc wieksze od zera")
