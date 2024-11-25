@@ -1,10 +1,10 @@
 import re
 
-path_to_file=r"D:\AGH\Informatyka\projekty\test.txt"
+path_to_file=r"test.txt"
 file=open(path_to_file, "r")
 tekst=file.read()
 
-dopasowanie=re.findall("\\.", tekst)
+dopasowanie=re.findall("[A-Za-z]+[.!?].", tekst)
 ilosc_zdan=len(dopasowanie)
 
 #([A-Za-z]+\.)
