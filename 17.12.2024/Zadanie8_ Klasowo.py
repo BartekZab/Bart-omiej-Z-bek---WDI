@@ -95,7 +95,3 @@ if __name__ == "__main__":
     analyzer = TriangleAnalyzer(points1)
     result = analyzer.contains_equilateral_triangle()
     print(result)
-
-
-
-
