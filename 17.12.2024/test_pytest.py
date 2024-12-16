@@ -6,7 +6,7 @@ def test_contains_equilateral_triangle():
     """
     Testuje, czy znajduje trójkąt równoboczny bez punktów wewnątrz.
     """
-    points = [Point(0, 0), Point(1, math.sqrt(3)), Point(2, 0), Point(1, 1)]
+    points = [Point(0, 0), Point(1, math.sqrt(3)), Point(2, 0), Point(1, 5)]
     analyzer = TriangleAnalyzer(points)
     assert analyzer.contains_equilateral_triangle() is True
 
