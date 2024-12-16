@@ -1,5 +1,5 @@
 import unittest
-from Zadanie8_Klasowo import Point, Triangle, TriangleAnalyzer
+from Klasowo import Point, Triangle, TriangleAnalyzer
 import math
 
 class TestTriangleAnalysis(unittest.TestCase):

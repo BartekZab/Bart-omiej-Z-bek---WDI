@@ -1,5 +1,5 @@
 import pytest
-from Zadanie8_Klasowo import Point, Triangle, TriangleAnalyzer
+from Klasowo import Point, Triangle, TriangleAnalyzer
 import math
 
 def test_contains_equilateral_triangle():
