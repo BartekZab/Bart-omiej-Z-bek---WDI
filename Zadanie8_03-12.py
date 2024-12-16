@@ -50,7 +50,7 @@ dane = [(0,0),(1,3),(2,0),(1,math.sqrt(3)),(3,3),(5,1)]
 print(contains_equilateral_triangle(dane))
 '''
 
-'''
+''' 
 dane1 = [(0, 0), (1, 1), (2, 0)]  # Nie tworzy trójkąta równobocznego
 dane2 = [(0, 0), (2, 0), (1, math.sqrt(3))]  # Tworzy trójkąt równoboczny
 dane3 = [(0, 0), (2, 0), (1, math.sqrt(3)), (1, 1)]  # Równoboczny z punktem wewnątrz
